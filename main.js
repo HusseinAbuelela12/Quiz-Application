@@ -27,7 +27,7 @@ function getQuestions () {
             addQuestionData(questionsObject[currentIndex] , qCount);
 
             //countdown
-            countdown(150,qCount);
+            countdown(40,qCount);
 
             //click on submit
             submitButton.onclick = () => {
